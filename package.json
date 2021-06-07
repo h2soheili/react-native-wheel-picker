@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "club9822"
+  },
+  "bugs": {
+    "url": "https://github.com/club9822/react-native-wheel-picker/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@react-native-picker/picker": "^1.9.4"
+  },
+  "deprecated": false,
+  "description": "React native cross platform picker.",
+  "homepage": "https://github.com/club9822/react-native-wheel-picker#readme",
+  "keywords": [
+    "react-native",
+    "picker",
+    "wheel"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "club9822/react-native-wheel-picker",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.0",
+    "react-native": ">=0.57"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/club0922/react-native-wheel-picker.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

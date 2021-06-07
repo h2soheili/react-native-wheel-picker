@@ -60,6 +60,7 @@ public class ReactWheelCurvedPickerManager extends SimpleViewManager<ReactWheelC
     public void setSelectedIndex(ReactWheelCurvedPicker picker, int index) {
         if (picker != null && picker.getState() == WheelPicker.SCROLL_STATE_IDLE) {
             picker.setSelectedItemPosition(index);
+            picker.setSelectedItemTextColor(Color.BLUE);
             picker.invalidate();
         }
     }
@@ -67,8 +68,8 @@ public class ReactWheelCurvedPickerManager extends SimpleViewManager<ReactWheelC
     @ReactProp(name="textColor", customType = "Color")
     public void setTextColor(ReactWheelCurvedPicker picker, Integer color) {
         if (picker != null) {
+            picker.setItemTextColor(color);
             picker.setSelectedItemTextColor(color);
-//            picker.setTextColor(color);
         }
     }
 
